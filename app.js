@@ -123,5 +123,13 @@ function clearAll () {
 
 clearAll();
 
+//  Listen for 'Esc' key to trigger the Clear button
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+        const clearButton = document.querySelector('.clear-all');
+        clearButton.click();
+    }
+});
+
 //  Call the function to execute the whole thing
 makeBoxesClickable();
