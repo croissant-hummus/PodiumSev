@@ -128,7 +128,6 @@ document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape') {
         const clearButton = document.querySelector('.clear-all');
         clearButton.click();
-        clearButton.blur();
     }
 });
 
