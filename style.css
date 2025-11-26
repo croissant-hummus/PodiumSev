@@ -80,7 +80,7 @@
 }
 
 .buttons > button:hover {
-    cursor: cell;
+    cursor: pointer;
     color: black;
     font-weight: bold;
     font-size: 84%;
